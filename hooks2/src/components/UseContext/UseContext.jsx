@@ -5,8 +5,8 @@ import Button from './Button';
 
 
 const userMock = {
-  name: 'Alberto',
-  email: 'alberto.rivera@upgrade.com',
+  name: 'Vitto',
+  email: 'vitto111@xxxx.com',
  };
 
 

@@ -1,6 +1,6 @@
 
 import './App.css';
-import UserContext from './components/UseContext/UseContext';
+import ShowUser from './components/UseContext/UseContext';
 import { UseEffect } from './components/UseEffect/UseEffect';
 
 import UseEffectInput from './components/UseEffectInput/UseEffectInput';
@@ -17,9 +17,14 @@ function App() {
             <UseEffectInput />      
       </fieldset>
 
-      <UserContext />
+      <ShowUser />
+
+
             
     </div>
+
+
+
   );
 }
 
