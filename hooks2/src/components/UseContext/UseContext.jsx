@@ -1,13 +1,25 @@
 import React from 'react';
-
-const UseContext = () => {
-
-
-  return (<div>
+import UserContext from './Context';
+import Button from './Button';
 
 
+
+const userMock = {
+  name: 'Alberto',
+  email: 'alberto.rivera@upgrade.com',
+ };
+
+
+const ShowUser = () => {
+
+  return (
+
+    <UserContext.Provider value={userMock}>
+    <Button />
+    </UserContext.Provider>
+ );
       
-  </div>);
+          
 };
 
-export default UseContext;
+export default ShowUser;
